@@ -1,0 +1,58 @@
+from openings import Opening, UserOpening
+import logging
+
+user_opening = None
+
+rule "Comienzo":
+    then:
+        attribute user_opening = get_user_opening()
+        print(user_opening.color)
+
+rule "Is there an opening?":
+	when:
+		exists UserOpening()
+	then:
+		print( "There is an user opening!" )
+
+rule "Select color":
+    when:
+        $opening := Opening(color != user_opening.color)
+    then:
+        forget $opening
+
+rule "Select position":
+    when:
+        $opening := Opening(position != user_opening.position)
+    then:
+        forget $opening
+
+rule "Select difficulty":
+    when:
+        $opening := Opening(difficulty < user_opening.difficulty - 1 or difficulty > user_opening.difficulty + 1)
+    then:
+        forget $opening
+
+rule "Select style":
+    when:
+        $opening := Opening(style != user_opening.style)
+    then:
+        forget $opening
+
+rule "Select minimum time":
+    when:
+        $opening := Opening(minimum_time > user_opening.minimum_time)
+    then:
+        forget $opening
+
+rule "Select objective":
+    when:
+        $opening := Opening(objective != user_opening.objective)
+    then:
+        forget $opening
+
+rule "Get opening":
+    when:
+        $opening := Opening()
+    then:
+        set_recomended_opening($opening.name)
+        halt

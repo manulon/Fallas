@@ -1,0 +1,262 @@
+{
+    "Perfect Strangers (2017) Alex de la Iglesia": {
+        "link": "https://m.imdb.com/title/tt6101820/mediaviewer/rm668221952",
+        "img": "Perfect Strangers (2017) Alex de la Iglesia.jpg"
+    },
+    "The Simpsons Movie (2007) David Silverman": {
+        "link": "https://www.imdb.com/title/tt0462538/",
+        "img":"The Simpsons Movie (2007) David Silverman.jpg"
+    },
+    "When Harry Met Sally (1989) Rob Reiner": {
+        "link": "https://www.imdb.com/title/tt0098635/",
+        "img":"When Harry Met Sally (1989) Rob Reiner.jpg"
+    },
+    "Annie Hall (1977) Woody Allen": {
+        "link": "https://www.imdb.com/title/tt0075686/",
+        "img":"Annie Hall (1977) Woody Allen.jpg"
+    },
+    "El futbol o yo (2017) Marcos Carnevale": {
+        "link": "https://www.imdb.com/title/tt4726988/",
+        "img":"El futbol o yo (2017) Marcos Carnevale.jpg"
+    },
+    "Baneros III todopoderosos (2006) Rodolfo Ledo": {
+        "link": "https://www.imdb.com/title/tt0484964/",
+        "img":"Baneros III todopoderosos (2006) Rodolfo Ledo.jpg"
+    },
+    "100 veces no debo (1990) Alejandro Doria": {
+        "link": "https://www.imdb.com/title/tt0099268/",
+        "img":"100 veces no debo (1990) Alejandro Doria.jpg"
+    },
+    "Esperando la carroza (1985) Alejandro Doria": {
+        "link": "https://www.imdb.com/title/tt0089108/",
+        "img":"Esperando la carroza (1985) Alejandro Doria.jpg"
+    },
+    "Parasite (2019) Bong Joon-Ho": {
+        "link": "https://www.imdb.com/title/tt6751668/",
+        "img":"Parasite (2019) Bong Joon-Ho.jpg"
+    },
+    "Anything Else (2003) Woody Allen": {
+        "link": "https://www.imdb.com/title/tt0313792",
+        "img":"Anything Else (2003) Woody Allen.jpg"
+    },
+    "The Truman Show (1998) Peter Wair": {
+        "link": "https://www.imdb.com/title/tt0120382",
+        "img":"The Truman Show (1998) Peter Wair.jpg"
+    },
+    "Hannah and her sisters (1986) Woody Allen": {
+        "link": "https://www.imdb.com/title/tt0091167",
+        "img":"Hannah and her sisters (1986) Woody Allen.jpg"
+    },
+    "Relatos Salvajes (2014) Damian Szifron": {
+        "link": "https://www.imdb.com/title/tt3011894",
+        "img":"Relatos Salvajes (2014) Damian Szifron.jpg"
+    },
+    "Papa es un idolo (2000) Juan Jose Jusid": {
+        "link": "https://www.imdb.com/title/tt0271701",
+        "img":"Papa es un idolo (2000) Juan Jose Jusid.jpg"
+    },
+    "The Wolf of Wall Street (2013) Martin Scorsese": {
+        "link": "https://www.imdb.com/title/tt0993846",
+        "img":"The Wolf of Wall Street (2013) Martin Scorsese.jpg"
+    },
+    "Love Actually (2003) Richard Curtis": {
+        "link": "https://www.imdb.com/title/tt0314331",
+        "img":"Love Actually (2003) Richard Curtis.jpg"
+    },
+    "Forrest Gump (1994) Robert Zemeckis": {
+        "link": "https://www.imdb.com/title/tt0109830",
+        "img":"Forrest Gump (1994) Robert Zemeckis.jpg"
+    },
+    "The World According to Garp (1982) George Roy Hill": {
+        "link": "https://www.imdb.com/title/tt0084917",
+        "img":"The World According to Garp (1982) George Roy Hill.jpg"
+    },
+    "Igualita a mi (2010) Diego Kaplan": {
+        "link": "https://www.imdb.com/title/tt1625098",
+        "img":"Igualita a mi (2010) Diego Kaplan.jpg"
+    },
+    "Nueve reinas (2000) Fabian Bielinsky": {
+        "link": "https://www.imdb.com/title/tt0247586",
+        "img":"Nueve reinas (2000) Fabian Bielinsky.jpg"
+    },
+    "Enfermero de dia, camarero de noche (1990) Anibal di Salvo": {
+        "link": "https://www.imdb.com/title/tt0299848",
+        "img":"Enfermero de dia, camarero de noche (1990) Anibal di Salvo.jpg"
+    },
+    "El profesor patagonico (1970) Fernando Ayala": {
+        "link": "https://www.imdb.com/title/tt0121657/",
+        "img":"El profesor patagonico (1970) Fernando Ayala.jpg"
+    },
+    "Drive (2011) Nicholas Winding Refn": {
+        "link": "https://www.imdb.com/title/tt0780504",
+        "img":"Drive (2011) Nicholas Winding Refn.jpg"
+    },
+    "American Psycho (2000) Mary Harron": {
+        "link": "https://www.imdb.com/title/tt0144084",
+        "img":"American Psycho (2000) Mary Harron.jpg"
+    },
+    "Reservoir Dogs (1992) Quentin Tarantino": {
+        "link": "https://www.imdb.com/title/tt0105236",
+        "img":"Reservoir Dogs (1992) Quentin Tarantino.jpg"
+    },
+    "Blood Simple (1984) Joel Coen": {
+        "link": "https://www.imdb.com/title/tt0086979",
+        "img":"Blood Simple (1984) Joel Coen.jpg"
+    },
+    "The Mule (2018) Clint Eastwood": {
+        "link": "https://www.imdb.com/title/tt7959026",
+        "img":"The Mule (2018) Clint Eastwood.jpg"
+    },
+    "Catch me if you can (2002) Steven Spielberg": {
+        "link": "https://www.imdb.com/title/tt0264464",
+        "img":"Catch me if you can (2002) Steven Spielberg.jpg"
+    },
+    "Leon: The Professional (1994) Leon Besson": {
+        "link": "https://www.imdb.com/title/tt0110413",
+        "img":"Leon: The Professional (1994) Leon Besson.jpg"
+    },
+    "Blow Out (1981) Brian de Palma": {
+        "link": "https://www.imdb.com/title/tt0082085",
+        "img":"Blow Out (1981) Brian de Palma.jpg"
+    },
+    "Tiempo de valientes (2005) Damian Szifron": {
+        "link": "https://www.imdb.com/title/tt0462570",
+        "img":"Tiempo de valientes (2005) Damian Szifron.jpg"
+    },
+    "El caso de Maria Soledad (1993) Hector Olivera": {
+        "link": "https://www.filmaffinity.com/es/film195142.html",
+        "img":"El caso de Maria Soledad (1993) Hector Olivera.jpg"
+    },
+    "Ultimos dias de la victima (1982) Adolfo Aristarain": {
+        "link": "https://www.filmaffinity.com/es/film558852.html",
+        "img":"Ultimos dias de la victima (1982) Adolfo Aristarain.jpg"
+    },
+    "The Irishman (2019) Martin Scorsese": {
+        "link": "https://www.imdb.com/title/tt1302006",
+        "img":"The Irishman (2019) Martin Scorsese.jpg"
+    },
+    "The departed (2006) Martin Scorsese": {
+        "link": "https://www.imdb.com/title/tt0407887",
+        "img":"The departed (2006) Martin Scorsese.jpg"
+    },
+    "Pulp Fiction (1994) Quentin Tarantino": {
+        "link": "https://www.imdb.com/title/tt0110912",
+        "img":"Pulp Fiction (1994) Quentin Tarantino.jpg"
+    },
+    "The Godfather (1972) Francis Ford Coppola": {
+        "link": "https://www.imdb.com/title/tt0068646",
+        "img":"The Godfather (1972) Francis Ford Coppola.jpg"
+    },
+    "Muerte en Buenos Aires (2014) Natalia Meta": {
+        "link": "https://www.imdb.com/title/tt3621802",
+        "img":"Muerte en Buenos Aires (2014) Natalia Meta.jpg"
+    },
+    "The Boy (2016) William Brent Eln": {
+        "link": "https://www.imdb.com/title/tt3882082",
+        "img":"The Boy (2016) William Brent Eln.jpg"
+    },
+    "House of 1000 Corpses (2003) Rob Zombie": {
+        "link": "https://www.imdb.com/title/tt0251736",
+        "img":"House of 1000 Corpses (2003) Rob Zombie.jpg"
+    },
+    "The Blair Witch Project (1998) Daniel Myrick": {
+        "link": "https://www.imdb.com/title/tt0185937",
+        "img":"The Blair Witch Project (1998) Daniel Myrick.jpg"
+    },
+    "A Nightmare on Elm Street (1984) Wes Craven": {
+        "link": "https://www.imdb.com/title/tt0087800",
+        "img":"A Nightmare on Elm Street (1984) Wes Craven.jpg"
+    },
+    "Split (2016)  M. Night Shyamalan": {
+        "link": "https://www.imdb.com/title/tt4972582",
+        "img":"Split (2016)  M. Night Shyamalan.jpg"
+    },
+    "Saw (2004) James Wan": {
+        "link": "https://www.imdb.com/title/tt0387564",
+        "img":"Saw (2004) James Wan.jpg"
+    },
+    "Scream (1996) Wes Craven": {
+        "link": "https://www.imdb.com/title/tt0117571",
+        "img":"Scream (1996) Wes Craven.jpg"
+    },
+    "The thing (1982) John Carpenter": {
+        "link": "https://www.imdb.com/title/tt0084787",
+        "img":"The thing (1982) John Carpenter.jpg"
+    },
+    "Juan de los Muertos (2011) Alejandro Brugues": {
+        "link": "https://www.filmaffinity.com/es/film107942.html",
+        "img":"Juan de los Muertos (2011) Alejandro Brugues.jpg"
+    },
+    "The House That Jack Built (2018) Lars von Trier": {
+        "link": "https://www.imdb.com/title/tt4003440",
+        "img":"The House That Jack Built (2018) Lars von Trier.jpg"
+    },
+    "Orphan (2008) Jaume Collet-Serra": {
+        "link": "https://www.imdb.com/title/tt1148204",
+        "img":"Orphan (2008) Jaume Collet-Serra.jpg"
+    },
+    "Thesis (1996) Alejandro Amenabar": {
+        "link": "https://www.imdb.com/title/tt0117883",
+        "img":"Thesis (1996) Alejandro Amenabar.jpg"
+    },
+    "The Shinning (1980) Stanley Kubrick": {
+        "link": "https://www.filmaffinity.com/es/film598422.html",
+        "img":"The Shinning (1980) Stanley Kubrick.jpg"
+    },
+    "El Nino de Barro (2007) Jorge Algora": {
+        "link": "https://www.filmaffinity.com/es/film178654.html",
+        "img":"El Nino de Barro (2007) Jorge Algora.jpg"
+    },
+    "Coherence (2013) James Ward Byrkit": {
+        "link": "https://www.imdb.com/title/tt2866360",
+        "img":"Coherence (2013) James Ward Byrkit.jpg"
+    },
+    "The Butterfly Effect (2004) Eric Bress": {
+        "link": "https://www.imdb.com/title/tt0289879",
+        "img":"The Butterfly Effect (2004) Eric Bress.jpg"
+    },
+    "The Iron Giant (1998) Brad Bird": {
+        "link": "https://www.imdb.com/title/tt0129167",
+        "img":"The Iron Giant (1998) Brad Bird.jpg"
+    },
+    "The Fly (1984) David Cronenberg": {
+        "link": "https://www.imdb.com/title/tt0091064/",
+        "img":"The Fly (1984) David Cronenberg.jpg"
+    },
+    "Fase 7 (2010) Nicolas Goldbart": {
+        "link": "https://www.imdb.com/title/tt1568816",
+        "img":"Fase 7 (2010) Nicolas Goldbart.jpg"
+    },
+    "Ready Player One (2018) Steven Spielberg": {
+        "link": "https://www.imdb.com/title/tt1677720",
+        "img":"Ready Player One (2018) Steven Spielberg.jpg"
+    },
+    "Eternal Sunshine of the Spotless Mind (2004) Michael Gondry": {
+        "link": "https://www.imdb.com/title/tt0338013",
+        "img":"Eternal Sunshine of the Spotless Mind (2004) Michael Gondry.jpg"
+    },
+    "The Matrix (1998) Lilly Wachowski": {
+        "link": "https://www.imdb.com/title/tt0133093/",
+        "img":"The Matrix (1998) Lilly Wachowski.jpg"
+    },
+    "The Swarm (1978) Irwin Allen": {
+        "link": "https://www.imdb.com/title/tt0078350",
+        "img":"The Swarm (1978) Irwin Allen.jpg"
+    },
+    "Interstellar (2014) Christopher Nolan": {
+        "link": "https://www.imdb.com/title/tt0816692",
+        "img":"Interstellar (2014) Christopher Nolan.jpg"
+    },
+    "Avatar (2008) James Cameron": {
+        "link": "https://www.imdb.com/title/tt0499549",
+        "img":"Avatar (2008) James Cameron.jpg"
+    },
+    "Terminator 2: Judgment Day (1996) James Cameron": {
+        "link": "https://www.imdb.com/title/tt0103064",
+        "img":"Terminator 2: Judgment Day (1996) James Cameron.jpg"
+    },
+    "E.T. the Extra-Terrestrial (1982) Steven Spielberg": {
+        "link": "https://www.imdb.com/title/tt0083866",
+        "img":"E.T. the Extra-Terrestrial (1982) Steven Spielberg.jpg"
+    }
+}

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    background: rgb(0, 0, 0)
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 80px auto 50px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #3d3d3d;
+    position: relative;
+    min-height: 500px;
+    overflow: hidden
+}
+
+.wrapper .wrap {
+    width: 500px;
+    position: absolute;
+    background-color: #3d3d3d;
+    left: 50px;
+    transition: 0.6s
+}
+
+#q1,
+#q2,
+#q3,
+#q4,
+#q5,
+#q6,
+#result {
+    left: 650px
+}
+
+#opening-image {
+    max-height: 300px;
+    display:block;
+    margin:auto;
+}
+
+.h4 {
+    margin: 0
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    cursor: pointer
+}
+
+.options {
+    position: relative;
+    padding-left: 30px
+}
+
+.options input {
+    opacity: 0
+}
+
+.checkmark {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    height: 20px;
+    width: 20px;
+    background-color: #8d8d8d;
+    border: 2px solid #444;
+    border-radius: 50%
+}
+
+.options input:checked~.checkmark:after {
+    display: block
+}
+
+.options .checkmark:after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    display: block;
+    background: rgb(128, 128, 128);
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 300ms ease-in-out 0s
+}
+
+.options input[type="radio"]:checked~.checkmark {
+    background: #590995;
+    border: 2px solid #590995;
+    transition: 300ms ease-in-out 0s
+}
+
+.options input[type="radio"]:checked~.checkmark:after {
+    transform: translate(-50%, -50%) scale(1)
+}
+
+.btn.btn-primary {
+    background-color: #3d3d3d;
+    border: 1px solid #3d3d3d
+}
+
+.btn {
+    background-color: inherit;
+    border: 1px solid #3d3d3d;
+    border-radius: 20px
+}
+
+.btn:focus {
+    box-shadow: none
+}
+
+.btn:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(88, 88, 88)
+}
+
+.fa-arrow-right,
+.fa-arrow-left {
+    transition: 0.2s ease-in all
+}
+
+.btn.btn-primary:hover .fa-arrow-right {
+    transform: translate(8px)
+}
+
+.btn.btn-primary:hover .fa-arrow-left {
+    transform: translate(-8px)
+}
+
+@media(max-width: 767px) {
+    .wrapper {
+        margin: 30px 10px;
+        height: 420px
+    }
+
+    .wrapper .wrap {
+        width: 280px;
+        left: 15px
+    }
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 28px;
+    background-color: inherit
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(78, 78, 78);
+    -webkit-transition: .4s;
+    transition: .4s
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #590995;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+
+input:checked+.slider {
+    background-color: #000
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3
+}
+
+input:checked+.slider:before {
+    transform: translateX(30px);
+    background-color: rgb(85, 85, 85)
+}
+
+.slider.round {
+    border-radius: 34px
+}
+
+.slider.round:before {
+    border-radius: 50%
+}
+
+.dark-theme {
+    background-color: #222
+}
+
+#navcol-1 {
+    font-size: 18px
+}
+
+footer {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 15px 50px;
+    margin-top: 80px;
+    bottom: 0;
+    color: rgb(90, 90, 90)
+}
+
+.footer-navigation h3 {
+    margin: 0;
+    font: normal 36px Cookie, cursive;
+    margin-bottom: 20px;
+    color: rgb(82, 82, 82)
+}
+
+.footer-navigation h3 a {
+    text-decoration: none;
+    color: rgb(112, 112, 112)
+}
+
+.footer-navigation h3 span {
+    color: #5383d3
+}
+
+span.new-line-span {
+    display: block;
+    font-weight: normal;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2
+}
+
+.footer-about h4 {
+    display: block;
+    color: rgb(99, 99, 99);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.footer-about p {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0
+}
+
+.footer {
+    bottom: 0;
+    position: absolute
+}
+
+body {
+    background: rgb(82, 82, 82)
+}

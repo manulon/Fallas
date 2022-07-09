@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href= "{{ url_for('static',filename='fallas.css') }}">>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+<title>Selector de peliculas</title>
+<link rel="shortcut icon" href="{{ url_for('static', filename='movie.png') }}">
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Selector de peliculas</a>
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">  </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item" role="presentation"></li>
+                <li class="nav-item" role="presentation">
+                   <img style="max-width: 48px;" src="{{ url_for('static',filename='movie.png') }}">
+                </li>
+                <li class="nav-item" role="presentation"></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="wrapper">
+    <div class="wrap" id="q0">
+        <div class="text-center pb-4">
+            <div class="h5 font-weight-bold"><span id="number"> </span>Preparación </div>
+        </div>
+        <div class="h4 font-weight-bold"> Descubra qué pelicula debería ver</div>
+        <div class="pt-4">
+            A continuación, le realizaremos unas preguntas para recomendarle una pelicula acorde a sus gustos.
+        </div>
+        <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary" id="next0">Comenzar <span class="fas fa-arrow-right"></span> </button> </div>
+    </div>
+
+    <div class="wrap" id="q1">
+        <div class="text-center pb-4">
+            <div class="h5 font-weight-bold"> <span id="number"> </span>1 de 4</div>
+        </div>
+        <div class="h4 font-weight-bold">1. ¿Qué genero es su favorito?</div>
+        <div class="pt-4">
+            <form> 
+                <label class="options">Comedia<input            type="radio" name="genre" value="comedy" checked> <span class="checkmark"></span> </label><br> 
+                <label class="options">Ciencia Ficción<input    type="radio" name="genre" value="science fiction" > <span class="checkmark"></span> </label><br> 
+                <label class="options">Terror<input             type="radio" name="genre" value="horror"> <span class="checkmark"></span> </label><br> 
+                <label class="options">Crimen / Misterio<input  type="radio" name="genre" value="crime"> <span class="checkmark"></span> </label>
+            </form>
+        </div>
+        <div class="d-flex justify-content-end pt-2"></button> <button class="btn btn-primary" id="next1">Siguiente <span class="fas fa-arrow-right"></span></button> </div>
+    </div>
+
+    <div class="wrap" id="q2">
+        <div class="text-center pb-4">
+            <div class="h5 font-weight-bold"> <span id="number"> </span>2 de 4</div>
+        </div>
+        <div class="h4 font-weight-bold">2. ¿Cuál es el largo esperable para la pelicula?</div>
+        <div class="pt-4">
+            <form> 
+                <label class="options">Longitud corta (menor a 100 minutos)<input type="radio" name="duration" value="short" checked> <span class="checkmark"></span> </label><br>
+                <label class="options">Longitud media (entre 100 y 150 minutos)<input type="radio" name="duration" value="medium" > <span class="checkmark"></span> </label><br> 
+                <label class="options">Longitud larga (mayor a 150 minutos)<input type="radio" name="duration" value="long"> <span class="checkmark"></span> </label> <br>
+            </form>
+        </div>
+        <div class="d-flex justify-content-end pt-2"><button class="btn btn-primary" id="next2">Siguiente <span class="fas fa-arrow-right"></span> </button> </div>
+    </div>
+
+    <div class="wrap" id="q3">
+        <div class="text-center pb-4">
+            <div class="h5 font-weight-bold"><span id="number"> </span>3 de 4</div>
+        </div>
+        <div class="h4 font-weight-bold">3. ¿De qué año prefiere que sea la pelicula?</div>
+        <div class="pt-4">
+            <form> 
+                <label class="options">2022 - 2008<input type="radio" name="year" value="2022 - 2008" checked> <span class="checkmark"></span> </label> <br>
+                <label class="options">2008 - 1998<input type="radio" name="year" value="2008 - 1998" checked> <span class="checkmark"></span> </label> <br>
+                <label class="options">1998 - 1990<input type="radio" name="year" value="1998 - 1990"> <span class="checkmark"></span> </label> <br>
+                <label class="options">1989 - 1970<input type="radio" name="year" value="1989 - 1970"> <span class="checkmark"></span> </label> <br>
+            </form>
+        </div>
+        <div class="d-flex justify-content-end pt-2"><button class="btn btn-primary" id="next3">Siguiente <span class="fas fa-arrow-right"></span> </button> </div>
+    </div>
+
+
+    <div class="wrap" id="q4">
+        <div class="text-center pb-4">
+            <div class="h5 font-weight-bold"><span id="number"> </span>4 de 4</div>
+        </div>
+        <div class="h4 font-weight-bold"> 4. Seleccione el origen de la pelicula</div>
+        <div class="pt-4">
+            <form> 
+                <label class="options">Internacional<input type="radio" name="country" value="international" checked> <span class="checkmark"></span> </label> <br>
+                <label class="options">Argentina<input type="radio" name="country" value="argentina"> <span class="checkmark"></span> </label> <br>
+            </form>
+        </div>
+        <div class="d-flex justify-content-end pt-2"><button class="btn btn-primary" id="next4">Siguiente <span class="fas fa-arrow-right"></span> </button> </div>
+    </div>
+   
+    <div class="wrap" id="result">
+        <div class="text-center pb-4">
+            <div class="h5 font-weight-bold"> <span id="number"> </span>Resultado</div>
+        </div>
+        <a id="opening-link"><div class="h5 font-weight-bold" id="opening-name" style="text-align: center;">Loading...</div></a><br>
+        <div class="container"><img id="opening-image"></img></div>
+
+    </div>
+</div>
+
+<script src="static/script.js"></script>
+</body>
+</html>

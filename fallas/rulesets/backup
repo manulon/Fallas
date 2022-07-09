@@ -1,0 +1,7 @@
+rule "Starting":
+    then:
+        print("Starting")
+        learn ItalianOpening()
+        learn KingsIndianOpening()
+        learn CaroKannOpening()
+        learn UserOpening()

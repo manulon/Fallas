@@ -1,0 +1,17 @@
+rule "Select style":
+    when:
+        $opening := Opening(style != user_opening.style)
+    then:
+        forget $opening
+
+rule "Select minimum time":
+    when:
+        $opening := Opening(minimum_time < user_opening.minimum_time)
+    then:
+        forget $opening
+
+rule "Select objective":
+    when:
+        $opening := Opening(objective != user_opening.objective)
+    then:
+        forget $opening
