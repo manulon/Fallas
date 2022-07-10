@@ -16,7 +16,7 @@ body {
     margin: 80px auto 50px;
     padding: 30px;
     border-radius: 20px;
-    background-color: #3d3d3d;
+    background-color: #9b9b9b;
     position: relative;
     min-height: 500px;
     overflow: hidden
@@ -25,7 +25,7 @@ body {
 .wrapper .wrap {
     width: 500px;
     position: absolute;
-    background-color: #3d3d3d;
+    background-color: #9b9b9b;
     left: 50px;
     transition: 0.6s
 }
@@ -42,8 +42,8 @@ body {
 
 #opening-image {
     max-height: 300px;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
 
 .h4 {
@@ -106,13 +106,13 @@ label {
 }
 
 .btn.btn-primary {
-    background-color: #3d3d3d;
-    border: 1px solid #3d3d3d
+    background-color: #9b9b9b;
+    border: 1px solid #9b9b9b
 }
 
 .btn {
     background-color: inherit;
-    border: 1px solid #3d3d3d;
+    border: 1px solid #9b9b9b;
     border-radius: 20px
 }
 
