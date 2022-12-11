@@ -1,4 +1,4 @@
-# T.P. Fallas 1
+# Sistemas Automaticos de Diagnostico y Deteccion de Fallas
 
 ## Pasos para correr el código:
 
@@ -7,5 +7,3 @@
 2- Correr el comando `make run`
 
 3- Acceder al servidor local en el puerto especificado según diga en la consola (EJEMPLO: http://127.0.0.1:5000/ ).
-
-![V1](v1.png)
