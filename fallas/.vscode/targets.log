@@ -253,7 +253,7 @@ run:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
 	docker build  -f Dockerfile . --rm  -t movie-selector
-	docker run --publish 5025:5025 -e PORT=5025 --rm -it movie-selector
+	docker run --publish 6002:6002 -e PORT=6002 --rm -it movie-selector
 
 # files hash-table stats:
 # Load=5/1024=0%, Rehash=0, Collisions=0/15=0%

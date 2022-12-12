@@ -47,31 +47,49 @@ var next1 = document.getElementById('next1')
 var next2 = document.getElementById('next2')
 var next3 = document.getElementById('next3')
 var next4 = document.getElementById('next4')
+var back2 = document.getElementById('back2')
+var back3 = document.getElementById('back3')
+var back4 = document.getElementById('back4')
 
 document.addEventListener('DOMContentLoaded', function() {
     next0.onclick = function() {
         q0.style.left = "-650px";
         q1.style.left = "50px";
-        console.log("aprete 0 b")
+        console.log("aprete next0")
     }
     next1.onclick = function() {
         q1.style.left = "-650px";
         q2.style.left = "50px";
-        console.log("aprete 1 b")
+        console.log("aprete next1")
     }
     next2.onclick = function() {
         q2.style.left = "-650px";
         q3.style.left = "50px";
-        console.log("aprete 2 b")
+        console.log("aprete next2")
     }
     next3.onclick = function() {
         q3.style.left = "-650px";
         q4.style.left = "50px";
-        console.log("aprete 3 b")
+        console.log("aprete next3")
     }
     next4.onclick = function() {
         q4.style.left = "-650px";
         result.style.left = "15px";
         getResult()
+    }
+    back2.onclick = function() {
+        q2.style.left = "-650px";
+        q1.style.left = "50px";
+        console.log("aprete back2")
+    }
+    back3.onclick = function() {
+        q3.style.left = "-650px";
+        q2.style.left = "50px";
+        console.log("aprete back3")
+    }
+    back4.onclick = function() {
+        q4.style.left = "-650px";
+        q3.style.left = "50px";
+        console.log("aprete back4")
     }
 });
